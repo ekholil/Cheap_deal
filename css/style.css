@@ -1,6 +1,7 @@
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
+  
 }
 .search-field {
   border: none;
@@ -63,17 +64,21 @@ body {
   text-align: center;
   width: 100%;
   margin: auto;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
 }
 .single-product {
-  padding: 10px;
+  padding:10px 5px;
   transition: 0.6s;
+  margin: 5px 10px;
+  background-color: #D5F5E3;
+  border-radius: 10px;
 }
 .single-product:hover {
   box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
   border-radius: 10px;
   border: 1px solid #2ECC71;
+  background-color: #ABEBC6;
 }
 .product-image {
   width: 150px;
